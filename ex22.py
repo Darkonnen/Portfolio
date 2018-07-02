@@ -135,10 +135,10 @@ var = {arg1: "arg1", arg2: "arg2"}
 var = {} : crea un diccionario vacío
 len(dic) : retorna longitud del diccionario
 dic.values() : retorna la clave del diccionario
-del dic(value) : remueve el valor del diccionario
+del dic[value] : remueve el valor del diccionario
 dic.get(value) : retorna el valor del diccionario
 dic.items() : retorna todos los valores/clavedel diccionario
-dic.update(var) : actualiza el diccionario con la valor/clave correspondiente
+dic.update({key:value}) : actualiza el diccionario con la valor/clave correspondiente
 dic.pop(value): remueve y retorna el item con el valor y llave
 
 
