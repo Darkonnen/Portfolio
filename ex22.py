@@ -90,8 +90,12 @@ list1 + list2 : concatena listas
 var1.insert(index, arg) : inserta un argumento en el índice de la lista
 var1.remove(var) : remueve la variable de la lista 
 var1.pop(index) : remueve la variable de la lista de acuerdo al índice
-var1.count(var) : retorna cuantas variables hay en la lista  
-list.split(char) : separa de acuerdo al carácter designado
+var1.count(var) : retorna cuantas variables hay en la lista.
+var1.sort((reverse=True): Ordena la lista
+sorted(var1) : Devuelve una copia de la lista ordenada, sin afectarla. 
+var1 = ','.join(courses) : une los valores de una lista con el carácter designado.
+var2 = course_str.split(',') : separa los carácteres de una lista de acuerdo al carácter designado.  
+list.split(char) : separa de acuerdo al carácter designado.
 var.clear() : vacía una lista.
 del list / del list[ : ] : remueve toda la lista o los elementos seleccionados  
 var.copy() : retorna una copia de la lista
@@ -100,6 +104,7 @@ var1.index(var) : retorna el índice de la variable
 
 Métodos de sets/arreglos # En sets los valores no se repiten!
 
+empty_set = set() # OJO Esto crea un set vacío.
 var = set{arg1, arg2}
 var.add(arg) : agrega al final del set un argumento
 var.update(arg) : actualiza los valores del set
